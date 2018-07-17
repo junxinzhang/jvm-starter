@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4bcbc6c-3d9c-4949-b2b7-0a0ec9b6cfb8" name="Default" comment="OOM异常汇总">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/gc/FinalizeEscapeGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/gc/ReferenceCountingGC.java" afterDir="false" />
+    <list default="true" id="b4bcbc6c-3d9c-4949-b2b7-0a0ec9b6cfb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/DirectMemoryOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/oom/DirectMemoryOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/JavaMethodAreaOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/oom/JavaMethodAreaOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/JavaVMStackOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/oom/JavaVMStackOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/JavaVMStackSOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/oom/JavaVMStackSOF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/RuntimeConstantPoolOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/oom/RuntimeConstantPoolOOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="399">
-                <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -352,7 +344,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531808837819</updated>
       <workItem from="1531808839963" duration="1081000" />
-      <workItem from="1531810153613" duration="9727000" />
+      <workItem from="1531810153613" duration="9834000" />
     </task>
     <task id="LOCAL-00001" summary="虚拟机栈和本地方法栈OOM测试">
       <created>1531809349241</created>
@@ -375,14 +367,22 @@
       <option name="project" value="LOCAL" />
       <updated>1531812780228</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GC收集器">
+      <created>1531828377792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531828377792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10808000" />
+    <option name="totallyTimeSpent" value="10915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -426,7 +426,8 @@
     <MESSAGE value="虚拟机栈和本地方法栈OOM测试" />
     <MESSAGE value="虚拟机栈和本地方法栈OOM测试2" />
     <MESSAGE value="OOM异常汇总" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOM异常汇总" />
+    <MESSAGE value="GC收集器" />
+    <option name="LAST_COMMIT_MESSAGE" value="GC收集器" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/junxin/jvm/oom/JavaVMStackSOF.java">
@@ -561,8 +562,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
